@@ -26,6 +26,9 @@ body {
   align-items: center;
   min-height: 100vh;
   padding-top: clamp(38px, 10vw, 64px);
+  padding-bottom: 100px;
+  overflow-x: hidden;
+  position: relative;
 }
 
 .huddle-header {
@@ -148,6 +151,7 @@ i {
   font-family: 'Montserrat', 'sans-serif';
   flex: none;
   padding: 10px;
+  position: absolute;
   bottom: 0px;
   width: 100%;
   text-align: center;
