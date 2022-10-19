@@ -1,0 +1,24 @@
+@media (min-width: 1436px) {
+  body {
+    background-image: url(../images/bg-desktop.svg);
+  }
+
+  .hero-text-container {
+    align-items: flex-start;
+  }
+
+  .hero-text-container h1 {
+    text-align: left;
+    width: clamp(280px, 74.6vw, 487px);
+  }
+
+  .hero-text-container p {
+    text-align: left;
+  }
+
+  .huddle-footer {
+    margin-top: 27px;
+    margin-right: 80px;
+    align-items: flex-end;
+  }
+}
