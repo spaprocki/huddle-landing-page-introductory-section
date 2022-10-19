@@ -90,10 +90,11 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
-  background: #ffffff;
+  background-color: #ffffff;
   box-shadow: 2px 4px 9px 3px rgba(0, 0, 0, 0.258633);
   border-radius: 28px;
   cursor: pointer;
+  transition: all ease-in 0.1s;
 }
 
 .register:hover {
@@ -125,6 +126,7 @@ body {
   justify-content: center;
   text-decoration: none;
   color: #ffffff;
+  transition: all ease-in 0.1s;
 }
 
 .icon:visited {
@@ -151,6 +153,7 @@ i {
   text-align: center;
   background-color: var(--soft-blue);
   color: var(--very-dark-blue-main-bg);
+  transition: all ease-in 0.1s;
 }
 
 .attribution a,
