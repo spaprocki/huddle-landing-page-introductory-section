@@ -1,6 +1,7 @@
 @media (min-width: 1436px) {
   body {
     background-image: url(../images/bg-desktop.svg);
+    background-size: contain;
   }
 
   .hero-text-container {
@@ -28,7 +29,7 @@
 
   .huddle-footer {
     margin-top: 27px;
-    margin-right: 80px;
+    padding-right: 80px;
     align-items: flex-end;
   }
 }
