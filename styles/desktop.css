@@ -32,4 +32,8 @@
     padding-right: 80px;
     align-items: flex-end;
   }
+
+  i {
+    font-size: 19px;
+  }
 }
